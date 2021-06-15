@@ -14,6 +14,6 @@ export interface ITavern {
 }
 
 export interface ITavernResponse {
-  tavern: ITavern;
-  excuse: IExcuse;
+  tavern: ITavern | null;
+  excuse: IExcuse | null;
 }
